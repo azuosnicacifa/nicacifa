@@ -1,0 +1,27 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title> Desafio 1 Exercicio 5 </title>
+	</head>
+	<body>
+		<script>
+			var usuarios = [
+				{
+					nome: 'Diego',
+					habilidades: ['javaScript', 'reactJs', 'redux']	
+					
+				},
+				{
+					nome: 'Gabriel',
+					habilidades: ['vueJs', 'ruby on rails', 'elixir']
+				}
+			];
+					
+				for (usuario of usuarios) {
+					let texto = `O ${usuario.nome} possui as habilidades: ${usuario.habilidades.join(', ')}.`;
+					console.log (texto);
+				}
+		</script>
+	</body>
+</html>
